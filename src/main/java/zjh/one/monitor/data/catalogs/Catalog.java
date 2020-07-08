@@ -1,20 +1,17 @@
 package zjh.one.monitor.data.catalogs;
 
-import zjh.one.monitor.data.ODataObject;
-import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import zjh.one.monitor.data.ODataObject;
 
-import java.net.URI;
 import java.util.Date;
 
 /**
  * @author zhoujianghui
  */
 @Data
-@Builder
+@NoArgsConstructor
 public class Catalog extends ODataObject {
-
-    private URI id;
 
     private String guid;
 

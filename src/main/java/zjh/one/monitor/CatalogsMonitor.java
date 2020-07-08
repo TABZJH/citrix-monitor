@@ -1,9 +1,10 @@
 package zjh.one.monitor;
 
-import zjh.one.monitor.data.catalogs.Catalog;
 import org.apache.olingo.client.api.ODataClient;
 import org.apache.olingo.client.api.domain.ClientEntity;
 import org.apache.olingo.client.api.domain.ClientEntitySet;
+import zjh.one.monitor.data.catalogs.Catalog;
+import zjh.one.serialization.ClientEntitySerialize;
 
 import java.util.List;
 import java.util.Objects;
@@ -25,12 +26,7 @@ public class CatalogsMonitor extends BaseMonitor {
         if (entity == null) {
             return null;
         }
-        entity.getProperties().forEach(clientProperty -> {
-            // TODO: 2020/7/7  serialization
-            System.out.println(clientProperty.getName());
-            System.out.println(clientProperty.getValue());
-        });
-        return null;
+        return ClientEntitySerialize.serialize(entity, Catalog.class);
     }
 
     @Override

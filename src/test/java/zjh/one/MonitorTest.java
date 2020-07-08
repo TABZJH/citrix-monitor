@@ -9,9 +9,9 @@ public class MonitorTest {
     @Before
     public void baseBefore() throws Exception {
         factory = new MonitorFactory(MonitorConfig.builder()
-                .base("http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data")
-                .domain("zjh.one")
-                .passWord("##########")
+                .base("http://xendesktop.appdev.centerm.com/Citrix/Monitor/OData/v1/Data")
+                .domain("appdev.centerm.com")
+                .passWord("zzz")
                 .userName("zzz")
                 .build());
     }

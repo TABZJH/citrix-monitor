@@ -2,6 +2,8 @@ package zjh.one.monitor.data;
 
 import lombok.Data;
 
+import java.net.URI;
+
 /**
  * 基础对象
  *
@@ -10,7 +12,6 @@ import lombok.Data;
 @Data
 public abstract class ODataObject {
 
-    private String base;
+    private URI id;
 
-    private String segment;
 }
