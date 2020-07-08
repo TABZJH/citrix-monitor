@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://10.17.3.6/Citrix/Monitor/OData/v1/Data/" xmlns="http://www.w3.org/2005/Atom"
+      xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+      xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <id>http://10.17.3.6/Citrix/Monitor/OData/v1/Data/Catalogs</id>
+    <title type="text">Catalogs</title>
+    <updated>2020-07-07T06:04:32Z</updated>
+    <link rel="self" title="Catalogs" href="Catalogs"/>
+    <entry>
+        <id>http://10.17.3.6/Citrix/Monitor/OData/v1/Data/Catalogs(guid'6e10ada1-0c9a-4a42-b7bd-36e733ca6331')</id>
+        <category term="Citrix.Monitor.Repository.V1.Catalog"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="Catalog" href="Catalogs(guid'6e10ada1-0c9a-4a42-b7bd-36e733ca6331')"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machines"
+              type="application/atom+xml;type=feed" title="Machines"
+              href="Catalogs(guid'6e10ada1-0c9a-4a42-b7bd-36e733ca6331')/Machines"/>
+        <title/>
+        <updated>2020-07-07T06:04:32Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Guid">6e10ada1-0c9a-4a42-b7bd-36e733ca6331</d:Id>
+                <d:Name>Windows Server 2012</d:Name>
+                <d:LifecycleState m:type="Edm.Int32">1</d:LifecycleState>
+                <d:ProvisioningType m:type="Edm.Int32">1</d:ProvisioningType>
+                <d:PersistentUserChanges m:type="Edm.Int32">2</d:PersistentUserChanges>
+                <d:IsMachinePhysical m:type="Edm.Boolean">false</d:IsMachinePhysical>
+                <d:AllocationType m:type="Edm.Int32">1</d:AllocationType>
+                <d:SessionSupport m:type="Edm.Int32">1</d:SessionSupport>
+                <d:ProvisioningSchemeId m:type="Edm.Guid" m:null="true"/>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T08:34:52.927</d:CreatedDate>
+                <d:ModifiedDate m:type="Edm.DateTime">2020-06-03T09:13:03.427</d:ModifiedDate>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://10.17.3.6/Citrix/Monitor/OData/v1/Data/Catalogs(guid'2c076dea-503a-4538-a7d1-3aa9cf4ede99')</id>
+        <category term="Citrix.Monitor.Repository.V1.Catalog"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="Catalog" href="Catalogs(guid'2c076dea-503a-4538-a7d1-3aa9cf4ede99')"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machines"
+              type="application/atom+xml;type=feed" title="Machines"
+              href="Catalogs(guid'2c076dea-503a-4538-a7d1-3aa9cf4ede99')/Machines"/>
+        <title/>
+        <updated>2020-07-07T06:04:32Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Guid">2c076dea-503a-4538-a7d1-3aa9cf4ede99</d:Id>
+                <d:Name>0B2246</d:Name>
+                <d:LifecycleState m:type="Edm.Int32">0</d:LifecycleState>
+                <d:ProvisioningType m:type="Edm.Int32">1</d:ProvisioningType>
+                <d:PersistentUserChanges m:type="Edm.Int32">1</d:PersistentUserChanges>
+                <d:IsMachinePhysical m:type="Edm.Boolean">false</d:IsMachinePhysical>
+                <d:AllocationType m:type="Edm.Int32">2</d:AllocationType>
+                <d:SessionSupport m:type="Edm.Int32">2</d:SessionSupport>
+                <d:ProvisioningSchemeId m:type="Edm.Guid">f68cf637-fbdf-4bdf-8a2d-5029ce3cc046</d:ProvisioningSchemeId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-04T01:41:07.837</d:CreatedDate>
+                <d:ModifiedDate m:type="Edm.DateTime">2020-06-04T01:44:37.977</d:ModifiedDate>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://10.17.3.6/Citrix/Monitor/OData/v1/Data/Catalogs(guid'ec79e732-1686-4c11-8f33-ac865ef4be98')</id>
+        <category term="Citrix.Monitor.Repository.V1.Catalog"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="Catalog" href="Catalogs(guid'ec79e732-1686-4c11-8f33-ac865ef4be98')"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machines"
+              type="application/atom+xml;type=feed" title="Machines"
+              href="Catalogs(guid'ec79e732-1686-4c11-8f33-ac865ef4be98')/Machines"/>
+        <title/>
+        <updated>2020-07-07T06:04:32Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Guid">ec79e732-1686-4c11-8f33-ac865ef4be98</d:Id>
+                <d:Name>0a1</d:Name>
+                <d:LifecycleState m:type="Edm.Int32">1</d:LifecycleState>
+                <d:ProvisioningType m:type="Edm.Int32">1</d:ProvisioningType>
+                <d:PersistentUserChanges m:type="Edm.Int32">1</d:PersistentUserChanges>
+                <d:IsMachinePhysical m:type="Edm.Boolean">false</d:IsMachinePhysical>
+                <d:AllocationType m:type="Edm.Int32">2</d:AllocationType>
+                <d:SessionSupport m:type="Edm.Int32">2</d:SessionSupport>
+                <d:ProvisioningSchemeId m:type="Edm.Guid">3967c6ab-a3a4-4250-b537-080c1f615e2c</d:ProvisioningSchemeId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T10:10:57.89</d:CreatedDate>
+                <d:ModifiedDate m:type="Edm.DateTime">2020-06-04T01:29:36.127</d:ModifiedDate>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://10.17.3.6/Citrix/Monitor/OData/v1/Data/Catalogs(guid'f3403437-e852-469b-92f6-b00213183bc6')</id>
+        <category term="Citrix.Monitor.Repository.V1.Catalog"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="Catalog" href="Catalogs(guid'f3403437-e852-469b-92f6-b00213183bc6')"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machines"
+              type="application/atom+xml;type=feed" title="Machines"
+              href="Catalogs(guid'f3403437-e852-469b-92f6-b00213183bc6')/Machines"/>
+        <title/>
+        <updated>2020-07-07T06:04:32Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Guid">f3403437-e852-469b-92f6-b00213183bc6</d:Id>
+                <d:Name>Windows Server 2012</d:Name>
+                <d:LifecycleState m:type="Edm.Int32">1</d:LifecycleState>
+                <d:ProvisioningType m:type="Edm.Int32">1</d:ProvisioningType>
+                <d:PersistentUserChanges m:type="Edm.Int32">1</d:PersistentUserChanges>
+                <d:IsMachinePhysical m:type="Edm.Boolean">false</d:IsMachinePhysical>
+                <d:AllocationType m:type="Edm.Int32">2</d:AllocationType>
+                <d:SessionSupport m:type="Edm.Int32">2</d:SessionSupport>
+                <d:ProvisioningSchemeId m:type="Edm.Guid">0e6e2398-c597-4abd-a36a-5aa182fd90d6</d:ProvisioningSchemeId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T09:18:14.653</d:CreatedDate>
+                <d:ModifiedDate m:type="Edm.DateTime">2020-06-03T10:00:06.193</d:ModifiedDate>
+            </m:properties>
+        </content>
+    </entry>
+</feed>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/" xmlns="http://www.w3.org/2005/Atom"
+      xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+      xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <id>
+        http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/Machines(guid'7d210867-1452-42e8-9f09-211322b958f0')/LoadIndex
+    </id>
+    <title type="text">LoadIndex</title>
+    <updated>2020-07-07T08:07:55Z</updated>
+    <link rel="self" title="LoadIndex" href="LoadIndex"/>
+    <entry>
+        <id>http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/LoadIndexes(1L)</id>
+        <category term="Citrix.Monitor.Repository.V1.LoadIndex"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="LoadIndex" href="LoadIndexes(1L)"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machine"
+              type="application/atom+xml;type=entry" title="Machine" href="LoadIndexes(1L)/Machine"/>
+        <title/>
+        <updated>2020-07-07T08:07:55Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Int64">1</d:Id>
+                <d:EffectiveLoadIndex m:type="Edm.Int32">0</d:EffectiveLoadIndex>
+                <d:Cpu m:type="Edm.Int32">0</d:Cpu>
+                <d:Memory m:type="Edm.Int32">0</d:Memory>
+                <d:Disk m:type="Edm.Int32">0</d:Disk>
+                <d:Network m:type="Edm.Int32">0</d:Network>
+                <d:SessionCount m:type="Edm.Int32">0</d:SessionCount>
+                <d:MachineId m:type="Edm.Guid">7d210867-1452-42e8-9f09-211322b958f0</d:MachineId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T09:21:43.89</d:CreatedDate>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/LoadIndexes(2L)</id>
+        <category term="Citrix.Monitor.Repository.V1.LoadIndex"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="LoadIndex" href="LoadIndexes(2L)"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machine"
+              type="application/atom+xml;type=entry" title="Machine" href="LoadIndexes(2L)/Machine"/>
+        <title/>
+        <updated>2020-07-07T08:07:55Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Int64">2</d:Id>
+                <d:EffectiveLoadIndex m:type="Edm.Int32">0</d:EffectiveLoadIndex>
+                <d:Cpu m:type="Edm.Int32">0</d:Cpu>
+                <d:Memory m:type="Edm.Int32">0</d:Memory>
+                <d:Disk m:type="Edm.Int32">0</d:Disk>
+                <d:Network m:type="Edm.Int32">0</d:Network>
+                <d:SessionCount m:type="Edm.Int32">0</d:SessionCount>
+                <d:MachineId m:type="Edm.Guid">7d210867-1452-42e8-9f09-211322b958f0</d:MachineId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T09:44:15.343</d:CreatedDate>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/LoadIndexes(3L)</id>
+        <category term="Citrix.Monitor.Repository.V1.LoadIndex"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="LoadIndex" href="LoadIndexes(3L)"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machine"
+              type="application/atom+xml;type=entry" title="Machine" href="LoadIndexes(3L)/Machine"/>
+        <title/>
+        <updated>2020-07-07T08:07:55Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Int64">3</d:Id>
+                <d:EffectiveLoadIndex m:type="Edm.Int32">0</d:EffectiveLoadIndex>
+                <d:Cpu m:type="Edm.Int32">0</d:Cpu>
+                <d:Memory m:type="Edm.Int32">0</d:Memory>
+                <d:Disk m:type="Edm.Int32">0</d:Disk>
+                <d:Network m:type="Edm.Int32">0</d:Network>
+                <d:SessionCount m:type="Edm.Int32">0</d:SessionCount>
+                <d:MachineId m:type="Edm.Guid">7d210867-1452-42e8-9f09-211322b958f0</d:MachineId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T09:56:35.893</d:CreatedDate>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/LoadIndexes(4L)</id>
+        <category term="Citrix.Monitor.Repository.V1.LoadIndex"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="LoadIndex" href="LoadIndexes(4L)"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Machine"
+              type="application/atom+xml;type=entry" title="Machine" href="LoadIndexes(4L)/Machine"/>
+        <title/>
+        <updated>2020-07-07T08:07:55Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Int64">4</d:Id>
+                <d:EffectiveLoadIndex m:type="Edm.Int32">0</d:EffectiveLoadIndex>
+                <d:Cpu m:type="Edm.Int32">0</d:Cpu>
+                <d:Memory m:type="Edm.Int32">0</d:Memory>
+                <d:Disk m:type="Edm.Int32">0</d:Disk>
+                <d:Network m:type="Edm.Int32">0</d:Network>
+                <d:SessionCount m:type="Edm.Int32">0</d:SessionCount>
+                <d:MachineId m:type="Edm.Guid">7d210867-1452-42e8-9f09-211322b958f0</d:MachineId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-03T09:59:36.14</d:CreatedDate>
+            </m:properties>
+        </content>
+    </entry>
+</feed>

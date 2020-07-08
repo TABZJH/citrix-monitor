@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/" xmlns="http://www.w3.org/2005/Atom"
+      xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+      xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <id>
+        http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/Catalogs(guid'2c076dea-503a-4538-a7d1-3aa9cf4ede99')/Machines
+    </id>
+    <title type="text">Machines</title>
+    <updated>2020-07-07T08:01:44Z</updated>
+    <link rel="self" title="Machines" href="Machines"/>
+    <entry>
+        <id>
+            http://xendesktop.zjh.one/Citrix/Monitor/OData/v1/Data/Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')
+        </id>
+        <category term="Citrix.Monitor.Repository.V1.Machine"
+                  scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+        <link rel="edit" title="Machine" href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Catalog"
+              type="application/atom+xml;type=entry" title="Catalog"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/Catalog"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/CurrentLoadIndex"
+              type="application/atom+xml;type=entry" title="CurrentLoadIndex"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/CurrentLoadIndex"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/DesktopGroup"
+              type="application/atom+xml;type=entry" title="DesktopGroup"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/DesktopGroup"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Hypervisor"
+              type="application/atom+xml;type=entry" title="Hypervisor"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/Hypervisor"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/LoadIndex"
+              type="application/atom+xml;type=feed" title="LoadIndex"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/LoadIndex"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MachineFailures"
+              type="application/atom+xml;type=feed" title="MachineFailures"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/MachineFailures"/>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Sessions"
+              type="application/atom+xml;type=feed" title="Sessions"
+              href="Machines(guid'658704c4-cdae-409b-8d3f-9fd6736541a6')/Sessions"/>
+        <title/>
+        <updated>2020-07-07T08:01:44Z</updated>
+        <author>
+            <name/>
+        </author>
+        <content type="application/xml">
+            <m:properties>
+                <d:Id m:type="Edm.Guid">658704c4-cdae-409b-8d3f-9fd6736541a6</d:Id>
+                <d:Sid>S-1-5-21-3450346807-3495703670-2739360436-422389</d:Sid>
+                <d:Name>ZJH\MCS001</d:Name>
+                <d:DnsName>MCS001.zjh.one</d:DnsName>
+                <d:LifecycleState m:type="Edm.Int32">0</d:LifecycleState>
+                <d:IPAddress>10.17.3.202</d:IPAddress>
+                <d:HostedMachineId>422d51ad-2b8c-4148-eb14-9e1ce1b2e9f6</d:HostedMachineId>
+                <d:HostingServerName>10.17.3.30</d:HostingServerName>
+                <d:HostedMachineName>MCS001</d:HostedMachineName>
+                <d:IsAssigned m:type="Edm.Boolean">false</d:IsAssigned>
+                <d:IsInMaintenanceMode m:type="Edm.Boolean">false</d:IsInMaintenanceMode>
+                <d:IsPendingUpdate m:type="Edm.Boolean">false</d:IsPendingUpdate>
+                <d:AgentVersion>7.15.2000.291</d:AgentVersion>
+                <d:AssociatedUserFullNames>zzz</d:AssociatedUserFullNames>
+                <d:AssociatedUserNames>ZJH\zzz</d:AssociatedUserNames>
+                <d:AssociatedUserUPNs>zzz@zjh.one</d:AssociatedUserUPNs>
+                <d:CurrentRegistrationState m:type="Edm.Int32">1</d:CurrentRegistrationState>
+                <d:RegistrationStateChangeDate m:type="Edm.DateTime">2020-07-06T09:25:33.57
+                </d:RegistrationStateChangeDate>
+                <d:LastDeregisteredCode m:type="Edm.Int32">2</d:LastDeregisteredCode>
+                <d:LastDeregisteredDate m:type="Edm.DateTime">2020-07-06T09:25:33.093</d:LastDeregisteredDate>
+                <d:CurrentPowerState m:type="Edm.Int32">3</d:CurrentPowerState>
+                <d:CurrentSessionCount m:type="Edm.Int32">2</d:CurrentSessionCount>
+                <d:ControllerDnsName>XenDesktop.zjh.one</d:ControllerDnsName>
+                <d:PoweredOnDate m:type="Edm.DateTime">2020-06-08T05:45:29.36</d:PoweredOnDate>
+                <d:PowerStateChangeDate m:type="Edm.DateTime">2020-07-06T09:23:28.44</d:PowerStateChangeDate>
+                <d:FunctionalLevel m:type="Edm.Int32">6</d:FunctionalLevel>
+                <d:FailureDate m:type="Edm.DateTime" m:null="true"/>
+                <d:WindowsConnectionSetting m:type="Edm.Int32">0</d:WindowsConnectionSetting>
+                <d:IsPreparing m:type="Edm.Boolean">false</d:IsPreparing>
+                <d:FaultState m:type="Edm.Int32">1</d:FaultState>
+                <d:OSType>Windows 2012</d:OSType>
+                <d:CurrentLoadIndexId m:type="Edm.Int64">18742</d:CurrentLoadIndexId>
+                <d:CatalogId m:type="Edm.Guid">2c076dea-503a-4538-a7d1-3aa9cf4ede99</d:CatalogId>
+                <d:DesktopGroupId m:type="Edm.Guid">6894eff7-eaae-4805-a816-2a2459d1af0a</d:DesktopGroupId>
+                <d:HypervisorId m:type="Edm.Guid">2114ba42-9e2f-4e46-b2ce-872accbaadb3</d:HypervisorId>
+                <d:CreatedDate m:type="Edm.DateTime">2020-06-04T01:44:48.467</d:CreatedDate>
+                <d:ModifiedDate m:type="Edm.DateTime">2020-07-07T07:22:01.013</d:ModifiedDate>
+            </m:properties>
+        </content>
+    </entry>
+</feed>
